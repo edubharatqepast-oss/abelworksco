@@ -57,21 +57,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- Add reveal class to CSS dynamically or via file ---
-    // Section entrance effect
-    sections.forEach((section, index) => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(30px)';
-        section.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
-    });
 });
-
-// Adding revealed styles via JS for simplicity or in CSS
-const style = document.createElement('style');
-style.textContent = `
-    section.reveal {
-        opacity: 1 !important;
-        transform: translateY(0) !important;
-    }
-`;
-document.head.appendChild(style);

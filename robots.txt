@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abelkdevworks.pages.dev/sitemap.xml
+Sitemap: https://abelinfinal.pages.dev/sitemap.xml

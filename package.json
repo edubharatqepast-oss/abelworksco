@@ -1,0 +1,12 @@
+{
+  "name": "abelworksco",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Abel Abraham Deny - Full Stack Developer Portfolio",
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0"
+  }
+}
